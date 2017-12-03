@@ -63,7 +63,7 @@ margin-top: -100px;
 	#container .box {
 		float: right;
 		display: block;
-		height: 100%;
+		height: auto;
 		padding-top: 600px;
 		max-width: 100%;
 	}
