@@ -59,10 +59,7 @@ margin-top: -100px;
 	width: 500px;
 }
 
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+@media screen and (max-width: 600px){ 
 	#container .box {
 		display: block;
 		height: 100%;
