@@ -45,9 +45,7 @@ margin-top: -100px;
   white-space:nowrap;
   font-size:0;
 }
-.gallery img {
-	max-width: 500px;
-}
+
 .one {
 	width: 500px;
 }
@@ -61,19 +59,22 @@ margin-top: -100px;
 	width: 500px;
 }
 	
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1050px) {
 	#container .box {
+		float: right;
 		display: block;
 		height: 100%;
-		padding-top: 720px;
-		max-width: 70%;
+		padding-top: 600px;
+		max-width: 80%;
 	}
 	#container img {
-		max-width: 160%;
+		max-width: 130%;
 	}
 	#container {
+		padding-right: 200px;
+		align-content: center;
 		width: 100%;
-		margin-top: -630px;
+		margin-top: -600px;
 		height: 165%;
 		transform: rotate(0deg) translateX(0%);
 	}
