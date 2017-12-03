@@ -10,6 +10,9 @@ body {
 a:hover {
 	text-decoration: none;
 }
+.logo {
+	z-index: 99;
+}
 .caption {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 9pt;
@@ -17,6 +20,7 @@ a:hover {
 	letter-spacing: 1pt;
 }
 #container .box {
+	z-index: -1;
   height:100%;
   padding-top: 100px;
   display:inline-block;
@@ -29,6 +33,7 @@ a:hover {
 	margin: 50px;
 }
 #container {
+z-index: -1;
 margin-top: -100px;
 	top: 50px;
   overflow-y:scroll;
@@ -40,6 +45,7 @@ margin-top: -100px;
   height:100vw;
 }
 #container2 {
+	z-index: -1;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
   white-space:nowrap;
