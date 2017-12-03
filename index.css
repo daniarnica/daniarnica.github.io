@@ -20,7 +20,7 @@ a:hover {
 	letter-spacing: 1pt;
 }
 #container .box {
-	-webkit-transform: translate3d(0,0,0);
+-webkit-transform: translate3d(0,0,0);
 	z-index: -1;
   height:100%;
   padding-top: 100px;
@@ -72,7 +72,7 @@ margin-top: -100px;
 	#container .box {
 		float: right;
 		display: block;
-		height: auto;
+		height: 500%;
 		padding-top: 600px;
 		max-width: 100%;
 	}
@@ -80,13 +80,15 @@ margin-top: -100px;
 		max-width: 130%;
 	}
 	#container {
+		overflow: scroll;
 		padding-right: 50px;
 		width: 100%;
 		margin-top: -600px;
-		height: auto;
+		height: 500%;
 		transform: rotate(0deg) translateX(0%);
 	}
 	#container2 {
+		overflow: scroll;
 		align-content: center;
 		transform: rotate(0deg) translateY(0vh);
 	}
