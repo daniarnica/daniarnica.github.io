@@ -71,11 +71,10 @@ margin-top: -100px;
 		max-width: 130%;
 	}
 	#container {
-		padding-right: 100px;
-		align-content: center;
+		padding-right: 50px;
 		width: 100%;
 		margin-top: -600px;
-		height: auto;
+		height: 1500px;
 		transform: rotate(0deg) translateX(0%);
 	}
 	#container2 {
