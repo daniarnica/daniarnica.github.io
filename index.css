@@ -59,7 +59,7 @@ margin-top: -100px;
 	width: 500px;
 }
 	
-@media only screen and (max-width: 1050px) {
+@media screen and (max-width: 740) {
 	#container .box {
 		display: block;
 		height: 100%;
