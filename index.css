@@ -58,27 +58,21 @@ margin-top: -100px;
 .four {
 	width: 500px;
 }
-@media screen and (max-width:432px)
-{.mobile-hidden{display:none}}
-
-@media screen and (max-width:432px){.subDesktop-hidden{display:none}}
-
-@media screen and (min-width:433px){
 	
-@media screen and (max-width: 600px){ 
+@media screen and (max-width: 740px) {
 	#container .box {
 		display: block;
 		height: 100%;
-		padding-top: 550px;
-		max-width: 100%;
+		padding-top: 600px;
+		max-width: 80%;
 	}
 	#container img {
-		max-width: 100%;
+		max-width: 130%;
 	}
 	#container {
 		align-content: center;
 		width: 100%;
-		margin-top: -550px;
+		margin-top: -600px;
 		height: 165%;
 		transform: rotate(0deg) translateX(0%);
 	}
@@ -86,7 +80,6 @@ margin-top: -100px;
 		align-content: center;
 		transform: rotate(0deg) translateY(0vh);
 	}
-}
 }
 
 
