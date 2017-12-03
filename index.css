@@ -59,7 +59,7 @@ margin-top: -100px;
 	width: 500px;
 }
 .two {
-	width: 500px
+	width: 200px
 }
 .three {
 	width: 500px;
@@ -69,6 +69,10 @@ margin-top: -100px;
 }
 	
 @media screen and (max-width: 740px) {
+	.one, .two, .three, .four {
+		width: 500px;
+		height: auto;
+	}
 	body {
 		overflow-y: scroll;
 		-webkit-overflow-scrolling: touch;
