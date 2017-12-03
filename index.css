@@ -74,7 +74,7 @@ margin-top: -100px;
 		padding-right: 50px;
 		width: 100%;
 		margin-top: -600px;
-		height: 1500px;
+		height: auto;
 		transform: rotate(0deg) translateX(0%);
 	}
 	#container2 {
