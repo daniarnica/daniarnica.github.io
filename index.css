@@ -97,22 +97,3 @@ margin-top: -100px;
 		transform: rotate(0deg) translateY(0vh);
 	}
 }
-
-
-/* Translating the content's X ruines the scrollbar length. */
-/*
-#container {
-  overflow:scroll;
-  transform: rotate(90deg) translateY(-100%);
-  transform-origin: top left;
-  background-color:#999;
-  position:absolute;
-  width:100vh;
-  height:100vw;
-}
-#container2 {
-  transform: rotate(-90deg) translateX(-100vw);
-  transform-origin: top left;
-  white-space:nowrap;
-}
-*/
