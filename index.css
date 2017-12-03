@@ -70,12 +70,13 @@ margin-top: -100px;
 	
 @media screen and (max-width: 740px) {
 	body {
-		overflow: scroll;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
 	}
 	#container .box {
 		float: right;
 		display: block;
-		height: 500%;
+		height: auto;
 		padding-top: 600px;
 		max-width: 100%;
 	}
@@ -83,13 +84,15 @@ margin-top: -100px;
 		max-width: 130%;
 	}
 	#container {
+		overflow: hidden;
 		padding-right: 50px;
 		width: 100%;
 		margin-top: -600px;
-		height: 500%;
+		height: auto;
 		transform: rotate(0deg) translateX(0%);
 	}
 	#container2 {
+		overflow: hidden;
 		align-content: center;
 		transform: rotate(0deg) translateY(0vh);
 	}
