@@ -59,19 +59,19 @@ margin-top: -100px;
 	width: 500px;
 }
 	
-@media only screen and (max-width: 1050px) {
+@media screen and (max-width: 740px) {
 	#container .box {
 		float: right;
 		display: block;
 		height: 100%;
 		padding-top: 600px;
-		max-width: 80%;
+		max-width: 100%;
 	}
 	#container img {
 		max-width: 130%;
 	}
 	#container {
-		padding-right: 200px;
+		padding-right: 100px;
 		align-content: center;
 		width: 100%;
 		margin-top: -600px;
