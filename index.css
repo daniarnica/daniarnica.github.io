@@ -45,7 +45,9 @@ margin-top: -100px;
   white-space:nowrap;
   font-size:0;
 }
-
+.gallery img {
+	max-width: 500px;
+}
 .one {
 	width: 500px;
 }
@@ -63,16 +65,15 @@ margin-top: -100px;
 	#container .box {
 		display: block;
 		height: 100%;
-		padding-top: 600px;
-		max-width: 80%;
+		padding-top: 720px;
+		max-width: 90%;
 	}
 	#container img {
-		max-width: 130%;
+		max-width: 160%;
 	}
 	#container {
-		align-content: center;
 		width: 100%;
-		margin-top: -600px;
+		margin-top: -630px;
 		height: 165%;
 		transform: rotate(0deg) translateX(0%);
 	}
