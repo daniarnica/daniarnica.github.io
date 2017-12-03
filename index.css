@@ -59,6 +59,29 @@ margin-top: -100px;
 	width: 500px;
 }
 
+@media only screen and (max-width: 756px) {
+	#container .box {
+		display: block;
+		height: 100%;
+		padding-top: 550px;
+		max-width: 100%;
+	}
+	#container img {
+		max-width: 100%;
+	}
+	#container {
+		align-content: center;
+		width: 100%;
+		margin-top: -550px;
+		height: 165%;
+		transform: rotate(0deg) translateX(0%);
+	}
+	#container2 {
+		align-content: center;
+		transform: rotate(0deg) translateY(0vh);
+	}
+}
+
 
 /* Translating the content's X ruines the scrollbar length. */
 /*
