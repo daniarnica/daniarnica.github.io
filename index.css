@@ -14,10 +14,16 @@ a:hover {
 	z-index: 99;
 }
 .caption {
+	width: 200px;
+	text-align: left;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 9pt;
 	color: black;
 	letter-spacing: 1pt;
+}
+.caption2 {
+	float: right;
+	margin-right: 50px;
 }
 #container .box {
 -webkit-transform: translate3d(0,0,0);
@@ -69,8 +75,11 @@ margin-top: -100px;
 }
 	
 @media screen and (max-width: 740px) {
+	.caption2 {
+	margin-right: -50px;
+}
 	.one, .two, .three, .four {
-		width: 500px;
+		width: 550px;
 		height: auto;
 	}
 	body {
@@ -85,7 +94,7 @@ margin-top: -100px;
 		max-width: 100%;
 	}
 	#container img {
-		max-width: 130%;
+		max-width: 115%;
 	}
 	#container {
 		overflow: hidden;
