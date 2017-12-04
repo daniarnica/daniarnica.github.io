@@ -127,7 +127,7 @@ margin-top: -100px;
 	#container .box {
 		float: right;
 		display: block;
-		height: 600%;
+		height: auto;
 		padding-top: 630px;
 		max-width: auto;
 	}
