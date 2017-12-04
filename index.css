@@ -117,7 +117,7 @@ margin-top: -100px;
 	margin-right: -50px;
 }
 	.one, .two, .three, .four {
-		width: 550px;
+		width: 800px;
 		height: auto;
 	}
 	body {
@@ -129,14 +129,14 @@ margin-top: -100px;
 		display: block;
 		height: auto;
 		padding-top: 630px;
-		max-width: 90%;
+		max-width: 100%;
 	}
 	#container img {
-		max-width: 113%;
+		max-width: 114%;
 	}
 	#container {
 		overflow: hidden;
-		padding-right: 60px;
+		padding-right: 40px;
 		width: 100%;
 		margin-top: -630px;
 		height: auto;
@@ -159,5 +159,23 @@ margin-top: -100px;
 	}
 	#container {
 		margin-top: -400px;
+	}
+	.logo {
+	z-index: 99;
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	width: 100px;
+	height: 49px;
+	background-image: url('images/LogoMobile.png');
+}
+	.logo:hover {
+			z-index: 99;
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	width: 100px;
+	height: 49px;
+	background-image: url('images/LogoMobile.png');
 	}
 }
