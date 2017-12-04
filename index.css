@@ -148,3 +148,16 @@ margin-top: -100px;
 		transform: rotate(0deg) translateY(0vh);
 	}
 }
+
+@media screen and (max-width: 414px) {
+	#container .box {
+		float: right;
+		display: block;
+		height: auto;
+		padding-top: 400px;
+		max-width: 90%;
+	}
+	#container {
+		margin-top: -400px;
+	}
+}
