@@ -154,11 +154,11 @@ margin-top: -100px;
 		float: right;
 		display: block;
 		height: auto;
-		padding-top: 440px;
+		padding-top: 460px;
 		max-width: 100%;
 	}
 	#container {
-		margin-top: -440px;
+		margin-top: -460px;
 	}
 	.logo {
 	z-index: 99;
