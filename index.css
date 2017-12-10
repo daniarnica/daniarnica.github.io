@@ -146,6 +146,7 @@ margin-top: -100px;
 		overflow: hidden;
 		align-content: center;
 		transform: rotate(0deg) translateY(0vh);
+		padding-bottom: 700px;
 	}
 }
 
@@ -153,19 +154,26 @@ margin-top: -100px;
 	html, body {
     height: 100%;
     width: 100%;
-}
-html {
-    overflow: auto;
-}
+	overflow: visible;
+	}
 	#container .box {
 		float: right;
 		display: block;
 		height: auto;
 		padding-top: 460px;
 		max-width: 100%;
+		overflow: visible;
+		display: inline;
 	}
 	#container {
 		margin-top: -460px;
+		overflow: visible;
+		display: inline;
+	}
+	#container2 {
+		overflow: visible;
+		display: inline;
+		padding-bottom: 300px;
 	}
 	.logo {
 	z-index: 99;
