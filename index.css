@@ -167,7 +167,9 @@ margin-top: -100px;
 	left: 20px;
 	width: 100px;
 	height: 49px;
-	background-image: url('images/LogoMobile.png');
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-image: url('images/Logo.png');
 }
 	.logo:hover {
 			z-index: 99;
@@ -176,6 +178,6 @@ margin-top: -100px;
 	left: 20px;
 	width: 100px;
 	height: 49px;
-	background-image: url('images/LogoMobile.png');
+	background-image: url('images/Logo.png');
 	}
 }
