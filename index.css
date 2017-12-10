@@ -150,6 +150,13 @@ margin-top: -100px;
 }
 
 @media screen and (max-width: 414px) {
+	html, body {
+    height: 100%;
+    width: 100%;
+}
+html {
+    overflow: auto;
+}
 	#container .box {
 		float: right;
 		display: block;
