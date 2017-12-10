@@ -154,11 +154,11 @@ margin-top: -100px;
 		float: right;
 		display: block;
 		height: auto;
-		padding-top: 400px;
-		max-width: 90%;
+		padding-top: 440px;
+		max-width: 100%;
 	}
 	#container {
-		margin-top: -400px;
+		margin-top: -440px;
 	}
 	.logo {
 	z-index: 99;
@@ -178,6 +178,8 @@ margin-top: -100px;
 	left: 20px;
 	width: 100px;
 	height: 49px;
+	background-size: 100px;
+	background-repeat: no-repeat;
 	background-image: url('images/Logo.png');
 	}
 }
