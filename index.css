@@ -114,6 +114,7 @@ margin-top: -100px;
 	color: #000;
 	overflow: hidden;
 	overflow-x: hidden;
+	z-index: -1;
 }
 .aboutpic {
 	float: left;
