@@ -113,18 +113,21 @@ margin-top: -100px;
 	left: 60px;
 	color: #000;
 	overflow: hidden;
+	overflow-x: hidden;
 }
 .aboutpic {
 	float: left;
 	width: 375px;
 	margin-right: 50px;
 	overflow: hidden;
+	overflow-x: hidden;
 }
 .abouttext {
 	float: left;
 	width: 400px;
 	margin-top: 35px;
 	overflow: hidden;
+	overflow-x: hidden;
 }
 .one {
 	width: 600px;
@@ -143,6 +146,7 @@ margin-top: -100px;
 	.aboutpic img {
 		max-width: 100%;
 		padding-right: 50px;
+		overflow-x: hidden;
 	}
 	.abouttext {
 		width: 325px;
@@ -188,6 +192,7 @@ margin-top: -100px;
 	.aboutpic img {
 		max-width: 90%;
 		padding: none;
+		overflow-x: hidden;
 	}
 	html, body {
     height: 100%;
