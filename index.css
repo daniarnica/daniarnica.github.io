@@ -50,12 +50,18 @@ a:hover {
 	color: #e9232d;
 	text-decoration: none;
 }
+a:link, a:visited {
+	color: #e9232d;
+}
+a:hover {
+	color: #000;
+}
 .caption {
 	width: 200px;
 	text-align: left;
 	font-family: Muli 400;
 	font-size: 9pt;
-	color: black;
+	color: #000;
 	letter-spacing: .5pt;
 	line-height: 35px;
 	color: #000;
@@ -98,7 +104,28 @@ margin-top: -100px;
   white-space:nowrap;
   font-size:0;
 }
-
+.about {
+	font-family: Muli 400;
+	letter-spacing: .5pt;
+	line-height: 25px;
+	position: absolute;
+	top: 110px;
+	left: 60px;
+	color: #000;
+	overflow: hidden;
+}
+.aboutpic {
+	float: left;
+	width: 375px;
+	margin-right: 50px;
+	overflow: hidden;
+}
+.abouttext {
+	float: left;
+	width: 400px;
+	margin-top: 35px;
+	overflow: hidden;
+}
 .one {
 	width: 600px;
 }
@@ -113,6 +140,13 @@ margin-top: -100px;
 }
 	
 @media screen and (max-width: 740px) {
+	.aboutpic img {
+		max-width: 100%;
+		padding-right: 50px;
+	}
+	.abouttext {
+		width: 325px;
+	}
 	.caption2 {
 	margin-right: -50px;
 }
@@ -151,10 +185,14 @@ margin-top: -100px;
 }
 
 @media screen and (max-width: 414px) {
+	.aboutpic img {
+		max-width: 90%;
+	}
 	html, body {
     height: 100%;
     width: 100%;
-	overflow: visible;
+	overflow-x: hidden;
+		overflow-y: visible;
 	}
 	#container .box {
 		float: right;
