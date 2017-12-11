@@ -190,9 +190,13 @@ margin-top: -100px;
 
 @media screen and (max-width: 414px) {
 	.aboutpic img {
-		max-width: 90%;
-		padding: none;
+		max-width: 75%;
+		padding: 0px;
 		overflow-x: hidden;
+	}
+	.abouttext {
+		max-width: 300px;
+		overflow: hidden;
 	}
 	html, body {
     height: 100%;
