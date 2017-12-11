@@ -121,6 +121,7 @@ margin-top: -100px;
 	margin-right: 50px;
 	overflow: hidden;
 	overflow-x: hidden;
+	position: absolute;
 }
 .abouttext {
 	float: left;
@@ -128,6 +129,7 @@ margin-top: -100px;
 	margin-top: 35px;
 	overflow: hidden;
 	overflow-x: hidden;
+	position: absolute;
 }
 .one {
 	width: 600px;
@@ -147,6 +149,7 @@ margin-top: -100px;
 		max-width: 100%;
 		padding-right: 50px;
 		overflow-x: hidden;
+		position: absolute;
 	}
 	.abouttext {
 		width: 325px;
@@ -193,6 +196,7 @@ margin-top: -100px;
 		max-width: 90%;
 		padding: none;
 		overflow-x: hidden;
+		position: absolute;
 	}
 	html, body {
     height: 100%;
