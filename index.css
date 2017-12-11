@@ -187,6 +187,7 @@ margin-top: -100px;
 @media screen and (max-width: 414px) {
 	.aboutpic img {
 		max-width: 90%;
+		padding: none;
 	}
 	html, body {
     height: 100%;
