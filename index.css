@@ -204,11 +204,8 @@ margin-top: -100px;
 		padding: 0px;
 		overflow: visible;
 	}
-	.aboutpic {
-		width: 90%;
-	}
 	.abouttext {
-		width: 110%;
+		width: 500px;
 		overflow: visible;
 		padding-bottom: 75px;
 	}
