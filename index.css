@@ -194,8 +194,8 @@ margin-top: -100px;
 }
 
 @media screen and (max-width: 414px) {
-	html {
-		border-bottom: 50px;
+	body {
+		padding-bottom: 50px;
 	}
 	.about {
 		overflow: hidden;
@@ -209,7 +209,6 @@ margin-top: -100px;
 	}
 	.abouttext {
 		width: 80%;
-		padding-bottom: 100px;
 		overflow: visible;
 	}
 	#container .box {
