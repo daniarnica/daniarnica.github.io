@@ -17,6 +17,8 @@ a:hover {
 	left: 20px;
 	width: 206px;
 	height: 100px;
+	background-size: 206px;
+	background-repeat: no-repeat;
 	background-image: url('images/Logo.png');
 }
 .logo:hover {
@@ -197,17 +199,9 @@ margin-top: -100px;
 		max-width: 75%;
 		margin-right: 0px;
 		padding: 0px;
-		overflow: hidden;
 	}
 	.abouttext {
 		max-width: 300px;
-		overflow: hidden;
-	}
-	html, body {
-    height: 100%;
-    width: 100%;
-	overflow-x: hidden;
-	overflow-y: visible;
 	}
 	#container .box {
 		float: right;
