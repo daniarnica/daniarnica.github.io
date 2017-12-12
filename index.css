@@ -207,6 +207,9 @@ margin-top: -100px;
 		padding: 0px;
 		overflow: visible;
 	}
+	.aboutpic img {
+		max-width: 40%;
+	}
 	.abouttext {
 		width: 80%;
 		overflow: hidden;
