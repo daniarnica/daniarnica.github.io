@@ -202,13 +202,13 @@ margin-top: -100px;
 		max-width: 100%;
 	}
 	.aboutpic {
-		max-width: 40%;
+		max-width: 50%;
 		margin-right: 0px;
 		padding: 0px;
 		overflow: visible;
 	}
 	.aboutpic img {
-		max-width: 40%;
+		max-width: 50%;
 	}
 	.abouttext {
 		width: 80%;
