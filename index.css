@@ -195,8 +195,8 @@ margin-top: -100px;
 
 @media screen and (max-width: 414px) {
 	.about {
-		overflow: hidden;
-		max-width: 75%;
+		overflow: visible;
+		max-width: 100%;
 	}
 	.aboutpic img {
 		max-width: 55%;
