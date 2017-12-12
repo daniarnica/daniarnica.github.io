@@ -194,9 +194,6 @@ margin-top: -100px;
 }
 
 @media screen and (max-width: 414px) {
-	body {
-		margin-bottom: 50px;
-	}
 	.about {
 		overflow: visible;
 		max-width: 100%;
@@ -227,6 +224,7 @@ margin-top: -100px;
 		margin-top: -460px;
 		overflow: visible;
 		display: inline;
+		padding-bottom: 50px;
 	}
 	#container2 {
 		overflow: visible;
