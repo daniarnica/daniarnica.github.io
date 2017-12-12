@@ -166,7 +166,6 @@ margin-top: -100px;
 	}
 	body {
 		overflow-y: scroll;
-		-webkit-overflow-scrolling: touch;
 	}
 	#container .box {
 		float: right;
