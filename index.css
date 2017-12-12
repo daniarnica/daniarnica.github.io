@@ -205,9 +205,9 @@ margin-top: -100px;
 		overflow: hidden;
 	}
 	.abouttext {
-		width: 200px;
+		width: 80%;
 		padding-bottom: 100px;
-		overflow: hidden;
+		overflow: visible;
 	}
 	#container .box {
 		float: right;
