@@ -196,16 +196,16 @@ margin-top: -100px;
 @media screen and (max-width: 414px) {
 	.about {
 		overflow: visible;
-		width: 375px;
+		width: 350px;
 	}
 	.about img {
-		width: 75%;
+		width: 80%;
 		margin-right: 0px;
 		padding: 0px;
 		overflow: visible;
 	}
 	.abouttext {
-		width: 80%;
+		width: 330px;
 		overflow: visible;
 		padding-bottom: 100px;
 	}
