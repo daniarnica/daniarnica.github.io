@@ -201,11 +201,11 @@ margin-top: -100px;
 		overflow: hidden;
 		max-width: 100%;
 	}
-	.aboutpic img {
-		width: 10%;
+	.aboutpic {
+		max-width: 80%;
 		margin-right: 0px;
 		padding: 0px;
-		overflow: hidden;
+		overflow: visible;
 	}
 	.abouttext {
 		width: 80%;
