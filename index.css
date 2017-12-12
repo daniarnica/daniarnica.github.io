@@ -195,8 +195,8 @@ margin-top: -100px;
 
 @media screen and (max-width: 414px) {
 	.about {
-		overflow: visible;
-		max-width: 100%;
+		overflow: hidden;
+		max-width: 75%;
 	}
 	.aboutpic img {
 		max-width: 55%;
@@ -204,9 +204,8 @@ margin-top: -100px;
 		padding: 0px;
 	}
 	.abouttext {
-		overflow: hidden;
-		width: 75%;
-		padding-bottom: 75px;
+		max-width: 300px;
+		padding-bottom: 100px;
 	}
 	#container .box {
 		float: right;
