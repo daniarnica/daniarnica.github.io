@@ -199,13 +199,13 @@ margin-top: -100px;
 		width: 300px;
 	}
 	.about img {
-		width: 70%;
+		width: 40%;
 		margin-right: 0px;
 		padding: 0px;
 		overflow: visible;
 	}
 	.abouttext {
-		width: 300px;
+		width: 80%;
 		overflow: visible;
 		padding-bottom: 75px;
 	}
