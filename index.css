@@ -199,7 +199,7 @@ margin-top: -100px;
 	}
 	.about {
 		overflow: hidden;
-		max-width: 90%;
+		max-width: 70%;
 	}
 	.aboutpic img {
 		max-width: 70%;
@@ -208,8 +208,8 @@ margin-top: -100px;
 		overflow: hidden;
 	}
 	.abouttext {
-		width: 80%;
-		overflow: visible;
+		width: 70%;
+		overflow: hidden;
 	}
 	#container .box {
 		float: right;
