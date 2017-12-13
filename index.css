@@ -172,7 +172,7 @@ z-index: -1;
 		float: right;
 		display: block;
 		height: auto;
-		padding-top: 630px;
+		padding-top: 730px;
 		max-width: 100%;
 	}
 	#container img {
@@ -223,7 +223,7 @@ z-index: -1;
 		display: inline;
 	}
 	#container {
-		margin-top: -460px;
+		margin-top: -360px;
 		overflow: visible;
 		display: inline;
 		padding-bottom: 50px;
