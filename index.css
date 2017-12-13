@@ -15,9 +15,9 @@ body {
 	position: fixed;
 	top: 20px;
 	left: 20px;
-	width: 206px;
-	height: 100px;
-	background-size: 206px;
+	width: 150px;
+	height: 73px;
+	background-size: 150px;
 	background-repeat: no-repeat;
 	background-image: url('images/Logo.png');
 }
