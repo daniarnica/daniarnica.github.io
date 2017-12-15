@@ -194,19 +194,11 @@ z-index: -1;
 	}
 }
 
-@media screen and (max-device-width: 414px) {
-	body {
-		overflow-x: hidden;
-	}
-	.about {
-		overflow: hidden;
-	}
-}
-
 @media screen and (max-width: 414px) {
 	body {
 		-webkit-text-size-adjust: none;
 		overflow-x: hidden;
+		width: 100%;
 	}
 	.about {
 		overflow: hidden;
@@ -219,7 +211,7 @@ z-index: -1;
 		overflow: visible;
 	}
 	.abouttext {
-		width: 330px;
+		width: 300px;
 		overflow: visible;
 		padding-bottom: 75px;
 	}
