@@ -167,6 +167,8 @@ z-index: -1;
 	}
 	body {
 		overflow-y: scroll;
+		overflow-x: hidden;
+		width: 100%;
 	}
 	#container .box {
 		float: right;
@@ -208,11 +210,11 @@ z-index: -1;
 		width: 70%;
 		margin-right: 0px;
 		padding: 0px;
-		overflow: visible;
+		overflow: hidden;
 	}
 	.abouttext {
 		width: 300px;
-		overflow: visible;
+		overflow: hidden;
 		padding-bottom: 75px;
 	}
 	#container .box {
@@ -260,20 +262,21 @@ z-index: -1;
 @media only screen and (max-width: 320px) {
 	body, .caption {
 		font-size: 7pt;
+		width: 100%;
 	}
 	.about {
-		overflow: visible;
+		overflow: hidden;
 		width: 250px;
 	}
 	.about img {
-		width: 50%;
+		width: 45%;
 		margin-right: 0px;
 		padding: 0px;
-		overflow: visible;
+		overflow: hidden;
 	}
 	.abouttext {
-		width: 250px;
-		overflow: visible;
+		width: 240px;
+		overflow: hidden;
 		padding-bottom: 75px;
 	}
 }
