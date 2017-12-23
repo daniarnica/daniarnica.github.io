@@ -61,7 +61,7 @@ a:hover {
 	text-decoration: none;
 }
 .caption {
-	width: 200px;
+	width: 90%;
 	text-align: left;
 	font-family: Muli 400;
 	font-size: 9pt;
@@ -69,9 +69,7 @@ a:hover {
 	letter-spacing: .5pt;
 	line-height: 30px;
 	color: #000;
-}
-.caption2 {
-	color: #686868;
+	white-space: normal;
 }
 #container .box {
 -webkit-transform: translate3d(0,0,0);
@@ -136,17 +134,21 @@ z-index: -1;
 	overflow: hidden;
 	overflow-x: hidden;
 }
-.one {
-	width: 550px;
-}
-.two {
-	width: 200px
-}
-.three {
-	width: 550px;
+
+.five {
+	width: 493px;
 }
 .four {
-	width: 550px;
+	width: 594px;
+}
+.three {
+	width: 650px;
+}
+.two {
+	width: 582px;
+}
+.one {
+	width: 642px;
 }
 	
 @media screen and (max-width: 740px) {
@@ -175,7 +177,8 @@ z-index: -1;
 		display: block;
 		height: auto;
 		padding-top: 730px;
-		max-width: 100%;
+		max-width: 500px;
+		width: 100%;
 	}
 	#container img {
 		max-width: 114%;
