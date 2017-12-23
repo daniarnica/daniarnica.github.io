@@ -113,6 +113,13 @@
 		$(document).ready(function(){
     $(this).scrollTop(0);
 });
+		$(document).ready( function() {
+    if (screen.width <= 480) {
+        $('.boxInner a').on('click', function (event) {
+            event.preventDefault();
+        });
+    }
+});
 	</script>
 		<script src="assets/javascripts/jquery-1.7.0.min.js"></script>
 		<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
