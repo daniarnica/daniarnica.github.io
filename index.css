@@ -189,6 +189,7 @@ z-index: -1;
 		width: 100%;
 		margin-top: -630px;
 		height: auto;
+		pointer-events: none;
 		transform: rotate(0deg) translateX(0%);
 	}
 	#container2 {
@@ -204,9 +205,6 @@ z-index: -1;
 		-webkit-text-size-adjust: none;
 		overflow-x: hidden;
 		width: 100%;
-	}
-	.gallery {
-		pointer-events: none;
 	}
 	.about {
 		overflow: hidden;
@@ -236,6 +234,7 @@ z-index: -1;
 		overflow: visible;
 		display: inline;
 		padding-bottom: 100px;
+		pointer-events: none;
 	}
 	#container2 {
 		overflow: visible;
