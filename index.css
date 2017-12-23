@@ -264,6 +264,9 @@ z-index: -1;
 	background-image: url('images/Logo.png');
 	}
 }
+.spacer {
+	height: 80px;
+}
 @media only screen and (max-width: 375px) {
 	body, .caption {
 		font-size: 7pt;
