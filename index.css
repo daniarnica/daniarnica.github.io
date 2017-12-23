@@ -205,6 +205,9 @@ z-index: -1;
 		overflow-x: hidden;
 		width: 100%;
 	}
+	.gallery {
+		pointer-events: none;
+	}
 	.about {
 		overflow: hidden;
 		width: 350px;
