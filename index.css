@@ -150,8 +150,24 @@ z-index: -1;
 .one {
 	width: 642px;
 }
-	
+.videothree {
+	width: 800px;
+}
+.videotwo {
+	width: 582px;
+}
+.videoone {
+	width: 642px;
+}
+iframe {
+  height: 450px;
+	width: 800px;
+}
+
 @media screen and (max-width: 740px) {
+	.nav {
+		width: 150px;
+	}
 	.aboutpic img {
 		max-width: 100%;
 		padding-right: 50px;
@@ -201,6 +217,9 @@ z-index: -1;
 }
 
 @media screen and (max-width: 414px) {
+	.nav {
+		margin-top: -15px;
+	}
 	body {
 		-webkit-text-size-adjust: none;
 		overflow-x: hidden;
