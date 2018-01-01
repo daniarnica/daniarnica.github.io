@@ -134,7 +134,24 @@ z-index: -1;
 	overflow: hidden;
 	overflow-x: hidden;
 }
-
+.eleven {
+	width: 700px;
+}
+.ten {
+	width: 850px;
+}
+.nine {
+	width: 500px;
+}
+.eight {
+	width: 630px;
+}
+.seven {
+	width: 570px;
+}
+.six {
+	width: 1010px;
+}
 .five {
 	width: 493px;
 }
@@ -149,19 +166,6 @@ z-index: -1;
 }
 .one {
 	width: 642px;
-}
-.videothree {
-	width: 800px;
-}
-.videotwo {
-	width: 582px;
-}
-.videoone {
-	width: 642px;
-}
-iframe {
-  height: 450px;
-	width: 800px;
 }
 
 @media screen and (max-width: 740px) {
@@ -217,6 +221,39 @@ iframe {
 }
 
 @media screen and (max-width: 414px) {
+	.eleven {
+	width: 400px;
+}
+.ten {
+	width: 400px;
+}
+.nine {
+	width: 400px;
+}
+.eight {
+	width: 400px;
+}
+.seven {
+	width: 400px;
+}
+.six {
+	width: 400px;
+}
+.five {
+	width: 400px;
+}
+.four {
+	width: 400px;
+}
+.three {
+	width: 400px;
+}
+.two {
+	width: 400px;
+}
+.one {
+	width: 400px;
+}
 	.nav {
 		margin-top: -15px;
 	}
