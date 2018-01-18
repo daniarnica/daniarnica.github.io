@@ -134,6 +134,9 @@ z-index: -1;
 	overflow: hidden;
 	overflow-x: hidden;
 }
+.twelve {
+	width: 380px;
+}
 .eleven {
 	width: 700px;
 }
@@ -183,7 +186,7 @@ z-index: -1;
 	.caption2 {
 	margin-right: -50px;
 }
-	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven {
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
 		width: 800px;
 		height: auto;
 	}
@@ -251,6 +254,9 @@ z-index: -1;
 		padding-top: 460px;
 		max-width: 100%;
 		overflow: visible;
+	}
+	.twelve {
+		padding-bottom: 150px;
 	}
 	#container {
 		margin-top: -360px;
