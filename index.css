@@ -137,6 +137,9 @@ z-index: -1;
 .twelve {
 	width: 380px;
 }
+.twelve img {
+	height: 450px;
+}
 .eleven {
 	width: 700px;
 }
@@ -257,6 +260,9 @@ z-index: -1;
 	}
 	.twelve {
 		padding-bottom: 150px;
+	}
+	.twelve img {
+		height: 400px;
 	}
 	#container {
 		margin-top: -360px;
