@@ -157,7 +157,8 @@ a:hover {
 		height: 10px;
 		position: fixed;
 		top: 25px;
-		left: 120px;
+		left: auto;
+		right: 20px;
 		word-spacing: 25px;
 		line-height: 25px;
 		text-align: right;
