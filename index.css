@@ -88,8 +88,6 @@ a:hover {
 	top: 110px;
 	left: 60px;
 	color: #000;
-	overflow: hidden;
-	overflow-x: hidden;
 	z-index: -1;
 }
 .aboutpic {
@@ -97,8 +95,6 @@ a:hover {
 	float: left;
 	width: 338px;
 	margin-right: 50px;
-	overflow: hidden;
-	overflow-x: hidden;
 }
 .abouttext {
 	z-index: -1;
@@ -106,8 +102,6 @@ a:hover {
 	width: 400px;
 	margin-top: 35px;
 	margin-bottom: 35px;
-	overflow: hidden;
-	overflow-x: hidden;
 }
 
 @media screen and (max-width: 1000px) {
@@ -135,6 +129,9 @@ a:hover {
 	}
 	.caption {
 		padding-bottom: 120px;
+	}
+	.abouttext {
+		width: 300px;
 	}
 }
 
