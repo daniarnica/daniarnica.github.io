@@ -128,7 +128,7 @@ a:hover {
 	.gallery {
 		width: 300px;
 		position: absolute;
-		right: 80px;
+		right: 40px;
 	}
 	.gallery img {
 		max-width: 300px;
@@ -141,10 +141,26 @@ a:hover {
 @media screen and (max-width: 550px) {
 	.gallery {
 		position: absolute;
-		right: 20px;
+		right: 50px;
+		overflow: hidden;
 	}
 	.caption {
 		padding-bottom: 120px;
+	}
+	.logo {
+		position: fixed;
+		top: 10px;
+		left: 10px;
+	}
+	.nav {
+		width: 250px;
+		height: 10px;
+		position: fixed;
+		top: 25px;
+		left: 120px;
+		word-spacing: 25px;
+		line-height: 25px;
+		text-align: right;
 	}
 }
 
