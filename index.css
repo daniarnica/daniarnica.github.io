@@ -69,7 +69,7 @@ a:hover {
 	max-width: 700px;
 }
 .caption {
-	width: 400px;
+	width: 700px;
 	text-align: left;
 	font-family: Muli 400;
 	font-size: 9pt;
@@ -80,6 +80,7 @@ a:hover {
 	white-space: normal;
 	padding-bottom: 200px;
 	padding-top: 6px;
+	word-wrap: break-word;
 }
 .about {
 	font-family: Muli 400;
@@ -117,6 +118,8 @@ a:hover {
 }
 	.caption {
 		padding-bottom: 160px;
+		width: 500px;
+		word-wrap: break-word;
 	}
 }
 
@@ -130,7 +133,9 @@ a:hover {
 		max-width: 300px;
 	}
 	.caption {
+		width: 300px;
 		padding-bottom: 120px;
+		word-wrap: break-word;
 	}
 	.abouttext {
 		width: 300px;
@@ -145,6 +150,7 @@ a:hover {
 	}
 	.caption {
 		padding-bottom: 120px;
+		word-wrap: break-word;
 	}
 	.logo {
 		position: fixed;
