@@ -5,7 +5,6 @@ body {
 	color: red;
 	background-color: #fff;
 	font-size: 9pt;
-	overflow: scroll;
 }
 .logo {
 	z-index: 99;
@@ -17,9 +16,19 @@ body {
 	background-size: 150px;
 	background-repeat: no-repeat;
 	background-image: url('images/Logo.png');
+	image-rendering: -moz-crisp-edges;
+	image-rendering:   -o-crisp-edges;
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: crisp-edges;
+	-ms-interpolation-mode: nearest-neighbor;
 }
 .logo:hover {
 	background-image: url('images/LogoAlt.png');
+	image-rendering: -moz-crisp-edges;
+	image-rendering:   -o-crisp-edges;
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: crisp-edges;
+	-ms-interpolation-mode: nearest-neighbor;
 }
 .preloadedImages
 {
@@ -27,6 +36,11 @@ body {
     height: 100px;
     display: none;
     background-image: url(images/LogoAlt.png);
+	image-rendering: -moz-crisp-edges;
+	image-rendering:   -o-crisp-edges;
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: crisp-edges;
+	-ms-interpolation-mode: nearest-neighbor;
 }
 .nav {
 	text-align: left;
