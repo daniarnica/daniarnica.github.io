@@ -30,17 +30,8 @@ body {
 	image-rendering: crisp-edges;
 	-ms-interpolation-mode: nearest-neighbor;
 }
-.preloadedImages
-{
-    width: 206px;
-    height: 100px;
-    display: none;
-    background-image: url(images/LogoAlt.png);
-	image-rendering: -moz-crisp-edges;
-	image-rendering:   -o-crisp-edges;
-	image-rendering: -webkit-optimize-contrast;
-	image-rendering: crisp-edges;
-	-ms-interpolation-mode: nearest-neighbor;
+.preload {
+	background: url('images/LogoAlt.png') no-repeat -9999px -9999px;
 }
 .nav {
 	text-align: left;
