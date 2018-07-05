@@ -22,6 +22,9 @@ body {
 	image-rendering: crisp-edges;
 	-ms-interpolation-mode: nearest-neighbor;
 }
+input {
+  display: none;
+}
 .logo:hover {
 	background-image: url('images/LogoAlt.png');
 	image-rendering: -moz-crisp-edges;
@@ -64,17 +67,17 @@ a:hover {
 	text-decoration: none;
 }
 .gallery {
-	width: 700px;
+	width: 600px;
 	position: absolute;
 	right: 80px;
 	top: 150px;
 	overflow: none;
 }
 .gallery img {
-	max-width: 700px;
+	max-width: 600px;
 }
 .caption {
-	width: 700px;
+	width: 600px;
 	text-align: left;
 	font-family: Muli 400;
 	font-size: 9pt;
@@ -112,11 +115,12 @@ a:hover {
 	word-wrap: break-word;
 }
 .videocontainer {
-    width: 700px;
-    height: 400px;
+    width: 600px;
+    height: 350px;
 	z-index: 1;
 }
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 1100px) {
 	.gallery {
 	width: 500px;
 	position: absolute;
