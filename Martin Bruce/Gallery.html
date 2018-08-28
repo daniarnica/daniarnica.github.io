@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+<meta charset="UTF-8">
+<title>Martin Bruce</title>
+</head>
+
+<body class="gallery">
+	<div class="nav">
+		<div class="doubleborder">
+	<a href="index.html">Martin Bruce</a>
+		</div>
+	<br>
+		<div class="doubleborder">
+	<a href="CV.pdf" target="_blank">CV</a>
+		</div>
+	<br>
+			<div class="doubleborder">
+	<a id="displayText" href="javascript:" onclick="toggle(document.getElementById('contact'))">Contact</a>
+		</div>
+	<br>
+		<div class="doubleborder">
+	<a id="displayText" href="javascript:" onclick="toggle(document.getElementById('links'))">Links</a>
+		</div>
+	<br>
+	</div>
+	
+	<div id="links" style="display: none;">
+			<a href="http://ramburutse.tumblr.com/" target="_blank">Tumblr</a><br>
+			<a href="https://www.instagram.com/martnbruc/" target="_blank">Instagram</a><br>
+			<a href="https://www.youtube.com/channel/UCqaCjQwtT1SE9QyBABYBbvQ" target="_blank">Ramburutse & Lavondasay</a>
+</div>
+	
+	<div id="contact" style="display: none;">
+		mokujinmadera@gmail.com
+	</div>
+	
+		<div id="gallery">
+	<img src="images/Duck.jpg"><br>
+	140 x 110 cm<br>
+	Oil on Canvas
+	</div>
+	
+	<div class="preload"> </div>
+</body>
+</html>
+
+<script type="text/javascript">
+function toggle(element) {
+    var ele = element;
+    //var text = document.getElementById("displayText");
+    if (ele.style.display == "block") {
+        ele.style.display = "none";
+        //text.innerHTML = "show";
+    } else {
+        ele.style.display = "block";
+        //text.innerHTML = "hide";
+    }
+}
+</script>
