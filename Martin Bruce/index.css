@@ -41,7 +41,6 @@ b, i {
 	top: 10px;
 	left: 10px;
 	z-index: 99;
-	display: block;
 }
 
 .nav a:link, .nav a:visited {
@@ -104,7 +103,7 @@ a:link, a:visited {
 
 .spiderweb {
 	position: absolute;
-	bottom: 160px;
+	bottom: 15%;
 	left: 250px;
 }
 
@@ -130,10 +129,4 @@ a:link, a:visited {
 
 .preload {
 	background: url('images/Gradient.gif') no-repeat -9999px -9999px;
-}
-
-@media only screen and (max-width: 600px) {
-	#links {
-	position: absolute;
-	top: 260px;
 }
