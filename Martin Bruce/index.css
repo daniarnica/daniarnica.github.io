@@ -41,6 +41,7 @@ b, i {
 	top: 10px;
 	left: 10px;
 	z-index: 99;
+	display: inline;
 }
 
 .nav a:link, .nav a:visited {
@@ -52,6 +53,7 @@ b, i {
 	padding-right: 5px;
 	padding-top: 3px;
 	padding-bottom: 3px;
+	display: inline;
 }
 
 .nav a:hover {
