@@ -131,3 +131,9 @@ a:link, a:visited {
 .preload {
 	background: url('images/Gradient.gif') no-repeat -9999px -9999px;
 }
+
+@media only screen and (max-width: 600px) {
+	#links {
+	position: absolute;
+	top: 260px;
+}
