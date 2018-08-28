@@ -41,7 +41,6 @@ b, i {
 	top: 10px;
 	left: 10px;
 	z-index: 99;
-	word-break: keep-all;
 }
 
 .nav a:link, .nav a:visited {
@@ -130,4 +129,10 @@ a:link, a:visited {
 
 .preload {
 	background: url('images/Gradient.gif') no-repeat -9999px -9999px;
+}
+
+@media screen and (max-device-width: 480px){
+	.nav {
+	display: block;
+	}
 }
