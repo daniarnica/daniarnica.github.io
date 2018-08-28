@@ -41,7 +41,7 @@ b, i {
 	top: 10px;
 	left: 10px;
 	z-index: 99;
-	width: 100%;
+	word-break: keep-all;
 }
 
 .nav a:link, .nav a:visited {
