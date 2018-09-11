@@ -145,7 +145,3 @@ a:link, a:visited {
 h1 {
 	line-height: 0px;
 }
-
-.preload {
-	background: url('images/Gradient.gif') no-repeat -9999px -9999px;
-}
