@@ -26,7 +26,7 @@ b, i {
 	left: -5px;
 	top: -5px;
 	height: 100%;
-	z-index: 99;
+	z-index: 97;
 	display: inline;
 	background-color: #fff;
 }
@@ -60,7 +60,7 @@ b, i {
 
 #links {
 	position: fixed;
-	top: 315px;
+	top: 310px;
 	left: 100px;
 	background-color: white;
 	border: 1px solid #000;
@@ -70,7 +70,7 @@ b, i {
 	line-height: 30px;
 	padding-left: 10px;
 	padding-top: 7px;
-	z-index: 98;
+	z-index: 99;
 }
 
 #links a:hover {
