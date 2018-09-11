@@ -40,6 +40,10 @@ b, i {
 	color: #43948d;
 }
 
+.line a:link, .line a:visited {
+	line-height: 30px;
+}
+
 .nav2 {
 	font-family: helvetica;
 	font-weight: regular;
@@ -47,11 +51,12 @@ b, i {
 	letter-spacing: 1pt;
 	text-transform: none;
 	text-decoration: none;
+	line-height: 10px;
 }
 
 #links {
 	position: fixed;
-	top: 360px;
+	top: 315px;
 	left: 100px;
 	background-color: white;
 	border: 1px solid #000;
