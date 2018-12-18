@@ -1,14 +1,14 @@
 @font-face {
+    font-family: TextaNRegular;
+    src: url(fonts/Latinotype-TextaNarrow-Regular.otf);
+}
+@font-face {
     font-family: TextaLight;
     src: url(fonts/Latinotype-Texta-Light.otf);
 }
 @font-face {
     font-family: TextaBook;
     src: url(fonts/Latinotype-Texta-Book.otf);
-}
-@font-face {
-    font-family: TextaNRegular;
-    src: url(fonts/Latinotype-TextaNarrow-Regular.otf);
 }
 @font-face {
     font-family: TextaNBold;
