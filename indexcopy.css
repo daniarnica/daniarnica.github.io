@@ -6,7 +6,7 @@ body {
 	background-color: #fff;
 	font-size: 9pt;
 }
-.logo {
+a#backToTop {
 	z-index: 99;
 	position: fixed;
 	top: 25px;
@@ -26,7 +26,7 @@ body {
 input {
   display: none;
 }
-.logo:hover {
+a#backToTop:hover {
 	background-image: url('images/FlagAlt.png');
 	image-rendering: -moz-crisp-edges;
 	image-rendering:   -o-crisp-edges;
@@ -41,7 +41,7 @@ input {
 	text-align: left;
 	width: 100%;
 	height: 50px;
-	margin-left: -176px;
+	margin-left: -167px;
 	position: fixed;
 	bottom: 0px;
 	left: 50%;
@@ -95,35 +95,6 @@ a:hover {
 	padding-bottom: 2px;
 	display: inline;
 }
-.about {
-	font-family: Muli 400;
-	letter-spacing: .5pt;
-	line-height: 25px;
-	position: absolute;
-	top: 110px;
-	left: 60px;
-	color: #000;
-	z-index: -1;
-}
-.aboutpic {
-	z-index: -1;
-	float: left;
-	width: 338px;
-	margin-right: 50px;
-}
-.abouttext {
-	z-index: -1;
-	float: left;
-	width: 330px;
-	margin-top: 35px;
-	margin-bottom: 35px;
-	word-wrap: break-word;
-}
-.videocontainer {
-    width: 600px;
-    height: 350px;
-	z-index: 1;
-}
 #links {
 	line-height: 25px;
 	width: 110px;
@@ -136,6 +107,51 @@ a:hover {
 	display: inline;
 	margin-top: 11px;
 	margin-right: 10px;
+}
+#about {
+	position: fixed;
+	top: 50%;
+	margin-top: -80px;
+	left: 50%;
+	margin-left: -95px;
+	width: 190px;
+	height: 165px;
+	z-index: 99;
+	background-color: #fff;
+	border: 1px solid #e9232d;
+}
+.abouttext {
+	text-align: left;
+	font-family: Muli 400;
+	font-size: 12pt;
+	color: #000;
+	letter-spacing: .8pt;
+	line-height: 30px;
+	color: #000;
+	white-space: normal;
+	word-spacing: 2px;
+	padding-left: 40px;
+	padding-top: 29px;
+}
+.abouttext a:link, .abouttext a:visited {
+	color: #e9232d;
+	border-bottom: 1px solid #e9232d;
+	padding-bottom: 2px;
+	display: inline;
+}
+.abouttext a:hover {
+	color: #000;
+}
+.close {
+	font-weight: bold;
+	color: #000;
+	position: fixed;
+	margin-top: -140px;
+	margin-left: 210px;
+	font-size: 12pt;
+}
+.close a:link, .close a:visited, .close a:hover {
+	color: #000;
 }
 @media screen and (max-width: 1100px) {
 		.gallery img {

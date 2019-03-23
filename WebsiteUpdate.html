@@ -8,6 +8,11 @@
 		<title>Dani Arnica</title>
 		<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="indexcopy.css">
+		<script type="text/javascript" src="./jquery.js"></script>
+		<script type="text/javascript" src="./script.js"></script>
+		<script type="text/javascript" src="jquery-ui.js"></script>
+<script type="text/javascript" src="jquery-ui.min.js"></script>
+		<link type="text/css" href="jquery-ui.css" rel="Stylesheet" />
 		<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -26,19 +31,30 @@
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 	</head>
-	<body class="fl-page">
-   <a href="index.html">
-    <div class="logo">
-    
-		</div>
-		</a>
+	<body class="fl-page">           
+		
+<a href="#" ID="backToTop"> </a>
+		
 	<div class="nav">
-		<a href="Painting.html">Studio</a>
-		<a href="About.html">About</a>
+		<a href="index.html">Home</a>
+		<a id="displayText" href="javascript:toggle();">About</a>
 		<a href="CV.pdf" target="_blank">CV</a>
 		</div>
 		<div class="gallery">
 			<center>
+			<table>
+			<td>
+	<img src="images/Team.jpg">
+				</td>
+				<td>
+    <div class="caption">
+		<i><div class="title">Take One for the Team</div></i><font color="#A2A2A2">, 2019<br>
+    Oil on Canvas<br>36" x 48"</font>
+		</div>
+				</td>
+			</table>
+				
+			<br><br>
 			<table>
 			<td>
 	<img src="images/TheRobbery.jpg">
@@ -50,6 +66,7 @@
 		</div>
 				</td>
 			</table>
+				
 			<br><br>
 				<table>
 				<td>
@@ -62,83 +79,80 @@
 		</div>
 			</td></table>
 			
-	<img src="images/Forfeit.jpg"><br>
+				<table>
+				<td>
+					<img src="images/Forfeit.jpg"></td><br>
+					<td>
     <div class="caption">
 		<i>"Forfeit"</i><font color="#A2A2A2">, 2018<br>
     Oil on Canvas<br>
 	18” x 15”</font>
 		</div>
+					</td>
+				</table>
+				<br><br>
 			
-	<img src="images/Airplane.jpg"><br>
-    <div class="caption">
-		<i>"To Me, He Will Always Be an Airplane"</i><font color="#A2A2A2">, 2018<br>
-    Oil on Panel<br>
-	12” x 12”</font>
-		</div>
-			
-	<img src="images/DoubleDouble.jpg"><br>
-    <div class="caption">
-		<i>"Crab Crab"</i><font color="#A2A2A2">, 2018<br>
-    Oil on Canvas<br>
-		8” x 10”</font>
-		<br><br>
-		<i>"Shield Shield"</i><font color="#A2A2A2">, 2018<br>
-    Oil on Canvas<br>
-	8” x 10”
-		</font>
-		</div>
-			
-	<img src="images/Transphobic.jpg"><br>
-    <div class="caption">
-		<i>"Transphobic"</i><font color="#A2A2A2">, 2018<br>
-    Oil on Canvas on Panel<br>
-	12” x 12”</font>
-		</div>
-			
-	<img src="images/Mango.jpg"><br>
+				<table>
+					<td>
+		<img src="images/Mango.jpg"></td><br>
+					<td>
     <div class="caption">
 		<i>"Between You, Me, and the Mango Tree"</i><font color="#A2A2A2">, 2018<br>
     Oil and Acrylic on Canvas on Panel<br>
 		16" x 16"</font>
 		</div>
+					</td>
+				</table>
+				<br><br>
 		
-	<img src="images/Business.jpg"><br>
-    <div class="caption">
-		<i>"Business Class"</i><font color="#A2A2A2">, 2018<br>
-    Oil on Cotton<br>
-		21" x 30"</font>
-		</div>
-		
-	<img src="images/Nightcrab.jpg"><br>
+				<table>
+				<td>
+	<img src="images/Nightcrab.jpg">
+					</td><br>
+					<td>
     <div class="caption">
 		<i>"Nightcrab"</i><font color="#A2A2A2">, 2017<br>
     Oil on Canvas<br>
 		42" x 42"</font>
 		</div>
+					</td>
+				</table>
+				<br><br>
 		
-	<img src="images/RedSOS.jpg"><br>
-    <div class="caption">
-		<i>"S.O.S. (Red)"</i><font color="#A2A2A2">, 2017<br>
-    Acrylic on Cotton, Spray Paint, Bamboo, Twine<br>
-		46" x 46"</font>
-		</div>
-		
-	<img src="images/Reekin.jpg"><br>
+				<table>
+				<td>
+					<img src="images/Reekin.jpg"></td><br>
+					<td>
     <div class="caption">
   <i>"Reekin"</i><font color="#A2A2A2">, 2017<br>
     Oil on Canvas on Panel<br>
 		12" x 10"</font>
 			</div>
-			
-   <img src="images/Bermuda.jpg"><br>
+			</td></table>
+				<br><br>
+				
+				<table>
+				<td>
+					<img src="images/Bermuda.jpg"></td><br>
+					<td>
     <div class="caption">
 	<i>"Bermuda"</i><font color="#A2A2A2">, 2017<br>
     Oil on Canvas on Panel<br>
 		12" x 9"</font>
 	</div>
+					</td></table>
 	</div>
 			</center>
 	<div class="preload"> </div>
+		
+		<div id="about" style="display: none;">
+			<div class="abouttext">
+			:●)<br>
+				<a href="https://www.instagram.com/dani.arnica/" target="_blank">@dani.arnica</a><br>
+				<a href="mailto:daniarnicastudio@gmail.com">Email</a>
+			</div>
+			<div class="close"><a id="displayText" href="javascript:toggle();">X</a></div>
+		</div>
 		
 		<script>
 		var siteWidth = 1280;
