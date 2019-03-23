@@ -14,25 +14,16 @@ a#backToTop {
 	margin-left: -50px;
 	width: 100px;
 	height: 80px;
-	background-size: contain;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-image: url('images/Flag.png');
-	image-rendering: -moz-crisp-edges;
-	image-rendering:   -o-crisp-edges;
-	image-rendering: -webkit-optimize-contrast;
-	image-rendering: crisp-edges;
-	-ms-interpolation-mode: nearest-neighbor;
 }
 input {
   display: none;
 }
 a#backToTop:hover {
 	background-image: url('images/FlagAlt.png');
-	image-rendering: -moz-crisp-edges;
-	image-rendering:   -o-crisp-edges;
-	image-rendering: -webkit-optimize-contrast;
-	image-rendering: crisp-edges;
-	-ms-interpolation-mode: nearest-neighbor;
+	background-size: 100%;
 }
 .preload {
 	background: url('images/FlagAlt.png') no-repeat -9999px -9999px;
