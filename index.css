@@ -32,7 +32,7 @@ a#backToTop:hover {
 	text-align: left;
 	width: 100%;
 	height: 50px;
-	margin-left: -172px;
+	margin-left: -180px;
 	position: fixed;
 	bottom: 0px;
 	left: 50%;
@@ -45,7 +45,7 @@ a#backToTop:hover {
 	font-weight: bold;
 	color: #e9232d;
 	letter-spacing: 3px;
-	font-size: 11pt;
+	font-size: 12pt;
 }
 .nav a:hover {
 	color: #000;
@@ -150,9 +150,10 @@ a:hover {
 }
 	.caption {
 		font-size: 11pt;
+		margin-left: -50px;
 	}
 			.gallery {
-		margin-left: 80px;
+		margin-left: 0px;
 	}
 }
 
@@ -162,10 +163,10 @@ a:hover {
 }
 		.caption {
 		font-size: 10pt;
-		padding-left: 30px;
+		margin-left: -70px;
 	}
 		.gallery {
-		margin-left: 70px;
+		margin-left: 0px;
 	}
 }
 
@@ -175,7 +176,7 @@ a:hover {
 }
 		.caption {
 		font-size: 9pt;
-		padding-left: 30px;
+			margin-left: -80px;
 	}
 	.gallery {
 		margin-left: 0px;
