@@ -110,6 +110,10 @@ a:hover {
 	z-index: 99;
 	background-color: #fff;
 	border: 1px solid #e9232d;
+	cursor: grab;
+}
+#about:active {
+	cursor: grabbing;
 }
 .abouttext {
 	text-align: left;
