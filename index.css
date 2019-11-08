@@ -64,12 +64,12 @@ a:hover {
 	text-align: center;
 }
 .gallery img {
-	max-width: 500px;
+	max-width: 400px;
 	float: left;
 	display: inline-block;
 }
 .caption {
-	width: 300px;
+	width: 350px;
 	padding-left: 100px;
 	text-align: left;
 	font-family: Muli 400;
